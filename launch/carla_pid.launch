@@ -1,0 +1,6 @@
+<launch>
+
+    <arg name="venv" value="/home/mohamed/catkin_ws/src/haptic_carla_pkg/.venv/bin/python3" />
+    <node pkg="haptic_carla_pkg" type="carla_pid.py" name="carla_pid" output="screen" launch-prefix="$(arg venv)" />
+    
+</launch>
