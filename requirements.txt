@@ -1,5 +1,6 @@
 agents==1.4.0
 carla==0.9.15
 catkin_pkg==1.0.0
+pynput==1.6.0
 rospy==1.16.0
 std_msgs==0.0.1
